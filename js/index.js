@@ -34,7 +34,6 @@ const multiply = () => {
     result = num1 * num2;
     document.getElementById('out').innerHTML = result;
 }
-
 const devide = () => {
     let num1, num2, result;
 
@@ -46,4 +45,11 @@ const devide = () => {
 
     result = num1 / num2;
     document.getElementById('out').innerHTML = result;
+}
+const valFunc = () => {
+    let result;
+
+    if (isNaN(result)) {
+        return document.getElementById('result').innerHTML = "Будь ласка введіть число";
+    }
 }
